@@ -87,10 +87,10 @@ public class GuideActivity extends AppCompatActivity implements View.OnClickList
     switch (view.getId())
     {
       case R.id.guide_left:
-        mViewPager.setCurrentItem(--mIndex);//下一页
+        mViewPager.setCurrentItem(--mIndex);//上一页
         break;
       case R.id.guide_right:
-        mViewPager.setCurrentItem(++mIndex);//上一页
+        mViewPager.setCurrentItem(++mIndex);//下一页
         break;
       case R.id.guide_finish:
         Toast.makeText(this, "进入登录页", Toast.LENGTH_SHORT).show();
